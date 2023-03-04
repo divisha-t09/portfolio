@@ -1,0 +1,109 @@
+.project-container {
+    left: 0;
+    top: 68rem;
+    background-color: black;
+    background-size: cover;
+    margin-top: 3rem;
+    position: absolute;
+}
+
+.projects{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: left;
+    margin: 0;
+    justify-items: center;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    width: 25rem;
+    height: 30rem;
+}
+
+.project-container a{
+    text-decoration: none;
+}
+
+.project-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    color: #6BEDFF;
+    margin-top: 100px;
+    margin-left: 83px;
+    text-align: left;
+}
+
+.projects p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: white;
+}
+
+.projects h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #2CCDC4;
+}
+
+.project-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view{
+    font-weight: 600;
+    background-color: #6BFFF7;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #6BFFF7;
+    display: flex;
+    font: 1rem 'Play', sans-serif;
+    height: 45px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: 0;
+    padding: 1px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 110px;
+    z-index: 2
+  }
+  
+  .view:hover {
+        font-weight: 800;
+        color: #000000;
+        cursor: pointer;
+  }
+  
+  .view span {
+      align-items: center;
+      background: #000000;
+      border-radius: 1px;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      transition: background .5s ease;
+      width: 100%;
+  }
+  
+  .view:hover span {
+      background: transparent;
+  }
+
+#Project1 {
+    margin-left: 5.2rem;
+}
+#Project2 {
+    margin-left: 5.2rem;
+}
+#Project3 {
+    margin-left: 5.2rem;
+    margin-right: 4.35rem;
+}
+
+.view-3{
+    margin-top: 2.3rem;
+}

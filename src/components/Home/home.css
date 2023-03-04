@@ -1,0 +1,128 @@
+.home {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 98vh;
+  overflow: hidden;
+  }
+  
+  .bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    background-size: cover;
+  }
+
+  .video{
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background: #232a34;
+    -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  transform:rotate(180deg);
+  }
+  
+  .text {
+    position: relative;
+    text-align: center;
+    
+  }
+
+  .home a {
+    text-decoration: none;
+  }
+  
+  .text h1{
+    color: #6BEDFF;
+    font-family: 'Signika', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 158px;
+    margin-top: 93px;
+    margin-bottom: 22px;
+  }
+
+  .text h2{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    animation: ease-in;
+  }
+
+  .text h3{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+.my-projects{
+  background-image: linear-gradient(to right, #2FCCE8 0%, #2FE8DE 100%);
+	border-radius: 10px;
+  box-sizing: border-box;
+	color: #6BFFF7;
+	display: flex;
+	font: 1.4rem 'Play', sans-serif;;
+  font-weight: 700;
+	height: 70px;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 4px;
+	position: relative;
+  text-decoration: none;
+	text-transform: uppercase;
+	width: 200px;
+	z-index: 2;
+}
+
+.my-projects:hover {
+	color: #fff;
+  cursor: pointer;
+}
+
+.my-projects span {
+	align-items: center;
+	background: #00060c;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+}
+
+.my-projects:hover span {
+	background: transparent;
+}
+
+.prjct{
+  position: relative;
+  right: 9rem;
+}
+
+.resume {
+  position: relative;
+  bottom: 4.5rem;
+  left: 8rem;
+}
+
