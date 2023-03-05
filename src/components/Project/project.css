@@ -52,6 +52,21 @@
     justify-content: center;
 }
 
+.read {
+    background-color: transparent;
+        color: #7e7e7e;
+        border: none;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+.read:hover {
+    text-decoration: underline;
+  }
+
 .view{
     font-weight: 600;
     background-color: #6BFFF7;
@@ -106,4 +121,99 @@
 
 .view-3{
     margin-top: 2.3rem;
+}
+
+@media (max-width: 360px) {
+    .project-container {
+        left: 0;
+        top: 55rem;
+        margin-top: 1rem;
+    }
+    
+    .projects{
+        display:inline-table;
+        width: 18rem;
+        height: 17rem;
+    }
+
+    .project-container h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 50px;
+        text-align: left;
+        margin-left: 50px;
+    }
+    
+    .projects p {
+        font-size: 13px;
+        text-align: justify;
+        font-weight: 100;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        color: white;
+    }
+    
+    .projects h2 {
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 0.3px;
+        font-family: 'Oswald', sans-serif;
+        color: #2CCDC4;
+    }
+    
+    .project-list {
+        display: inline-block;
+    }
+    
+    .view{
+        font-weight: 600;
+        background-color: #6BFFF7;
+        border-radius: 3px;
+        box-sizing: border-box;
+        color: #6BFFF7;
+        display: flex;
+        font: 0.8rem 'Play', sans-serif;
+        height: 32px;
+        letter-spacing: 1px;
+        margin-top: 0px;
+        margin-left: 0;
+        padding: 0px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 80px;
+        z-index: 1;
+      }
+      
+      .view:hover {
+            font-weight: 700;
+            color: #000000;
+            cursor: pointer;
+      }
+      
+      .view span {
+          align-items: center;
+          background: #000000;
+          border-radius: 0px;
+          display: flex;
+          justify-content: center;
+          height: 100%;
+          transition: background .5s ease;
+          width: 100%;
+      }
+    
+    #Project1 {
+        margin-left: 3.2rem;
+    }
+    #Project2 {
+        margin-left: 3.2rem;
+    }
+    #Project3 {
+        margin-left: 3.2rem;
+    }
+    
+    .view-3{
+        margin-top: 0;
+    }
+    
 }
