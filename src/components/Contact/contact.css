@@ -3,14 +3,12 @@
     top: 104rem;
     background-image: url('../../assets/image.jpg');
     width: 100%;
-    height: 50%;
+    height: 45%;
     background-repeat: no-repeat;
     background-blend-mode:overlay;
     background-color: rgba(0, 0, 0, 0.8);
     background-size: cover;
     position: absolute;
-    width: 100%;
-    height: 45%;
 }
 
 .contact-container h1 {
@@ -51,6 +49,7 @@
     margin-top: 2rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     pointer-events: none;
     position: absolute;
     left: 37rem;
@@ -87,11 +86,11 @@
 }
 
 .item:nth-child(odd) {
-    transform: translateY(5rem);
+    transform: translateY(3rem);
 }
 
 .item:nth-child(even) {
-    transform: translateY(-5rem);
+    transform: translateY(-3rem);
 }
 
 .footer:hover .item {
@@ -102,9 +101,10 @@
 @media (max-width: 360px) {
     .contact-container {
         left: 0;
-        top: 120rem;
-        width: 100%;
-        height: 30%;
+        top: 113rem;
+        width: 25.55rem;
+        height: 32%;
+        background-size: 200%;
     }
     
     .contact-container h1 {
@@ -119,7 +119,7 @@
     
     .footer {
         margin-top: 0.7rem;
-        left: 4rem;
+        left: 6rem;
     }
     
     .footer h2 {
