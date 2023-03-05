@@ -126,7 +126,7 @@
   left: 8rem;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .home {
     width: 25.55rem;
     height: vh;
