@@ -98,6 +98,7 @@
 .my-projects:hover {
 	color: #000000;
   cursor: pointer;
+	font-weight: 600;
 }
 
 .my-projects span {
