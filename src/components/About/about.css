@@ -74,8 +74,67 @@
     margin-right: 0;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 360px) {
+    .about-container {
+      top: 21rem;
+      width: 25.55rem;
+    }
+    
+    .about-container h2 {
+      font-size: 30px;
+      font-weight: 600;
+      margin-top: 30px;
+      text-align: center;
+      letter-spacing: 3px;
+    }
+    
+    .about-container h3 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      margin-top: 25px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+  
+    .about-container p {
+      position: relative;
+      left: 0rem;
+      width: 80%;
+      font-size: 13px;
+      font-weight: 100;
+      margin-left: 3rem;
+      margin-right: 0rem;
+      line-height: 1.5;
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .skills-list {
+      display: grid;
+      grid-template-columns: repeat(3, 90px);
+      gap: 0.1px;
+      position: relative;
+      left: 0rem;
+      margin-bottom: 1rem;
+    }
+    
+    .skill-part {
+      position: relative;
+      left: 3rem;
+      margin-top: 9px;
+    }
+
     .skills-list li {
-      width: calc(50% - 20px);
+      width: 5rem;
+      font-size: 12px;
+      font-weight: 200;
+    }
+    
+    .skills-list img {
+      margin-top: 20px;
+      width: 30px;
+      height: 30px;
+      margin-bottom:10px;
     }
   }
