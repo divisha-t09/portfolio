@@ -96,7 +96,7 @@
 }
 
 .my-projects:hover {
-	color: #fff;
+	color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
