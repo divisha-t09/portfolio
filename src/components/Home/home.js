@@ -17,7 +17,7 @@ function Home() {
         <h3 id="typewriter-text" className='heading'><span>A Web Developer</span></h3>
       </div>
       <button className='my-projects prjct'><span>MY PROJECTS</span></button>
-      <a href='https://drive.google.com/file/d/1grEfxKZBi3XxoSA7md28YI84gIimeYUu/view?usp=sharing'><button className='my-projects resume'><span>MY RESUME</span></button></a>
+      <a href='https://drive.google.com/file/d/1fKw8HyJUAmzwpCEEg_mnXyYuQ8YAbEZM/view?usp=sharing'><button className='my-projects resume'><span>MY RESUME</span></button></a>
     </section>
   );
 }
