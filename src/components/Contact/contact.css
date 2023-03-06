@@ -132,11 +132,24 @@
         height: 25px;
     }
     
-    .item:nth-child(odd) {
-        transform: translateY(2em);
-    }
-    
-    .item:nth-child(even) {
-        transform: translateY(-2rem);
-    }
+.item {
+    cursor: pointer;
+    margin-inline: 0.5rem;
+    opacity: 0;
+    transition: ease-in 1s;
+}
+
+.item:nth-child(odd) {
+    transform: none;
+}
+
+.item:nth-child(even) {
+    transform: none;
+}
+
+.footer:hover .item {
+    opacity: 1;
+    transform: none;
+}
+
 }
