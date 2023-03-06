@@ -135,7 +135,7 @@
 .item {
     cursor: pointer;
     margin-inline: 0.5rem;
-    opacity: 0;
+    opacity: 1;
     transition: ease-in 1s;
 }
 
@@ -148,7 +148,6 @@
 }
 
 .footer:hover .item {
-    opacity: 1;
     transform: none;
 }
 
