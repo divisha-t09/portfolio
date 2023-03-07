@@ -23,11 +23,11 @@ I'm a skilled UI designer who has completed few successful freelance projects. W
           <img src={require('../../assets/js.png')} alt="JS" /><br/>
           JavaScript
         </li>
-        <li>
+        <li className='skill-part'>
           <img src={require('../../assets/atom.png')} alt="ReactJs" /><br/>
           React Js
         </li>
-        <li>
+        <li className='skill-part'>
           <img src={require('../../assets/UI.png')} alt="UI-Design" /><br/>
           UI designing
         </li>
