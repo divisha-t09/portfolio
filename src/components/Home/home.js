@@ -17,7 +17,7 @@ function Home() {
         <h3 className='heading'><span>A Web Developer</span></h3>
       </div>
       <button onClick={() => window.scrollTo({top: document.getElementById("projects").offsetTop, behavior: 'smooth'})} className='my-projects prjct'><span>MY PROJECTS</span></button>
-      <a href='https://drive.google.com/file/d/1qNhxWoVrpLaRZFHBhgq5f_RKya0XMS-x/view?usp=sharing'><button className='my-projects resume'><span>MY RESUME</span></button></a>
+      <a href='https://drive.google.com/file/d/1fKw8HyJUAmzwpCEEg_mnXyYuQ8YAbEZM/view?usp=sharing'><button className='my-projects resume'><span>MY RESUME</span></button></a>
     </section>
   );
 }
